@@ -10,8 +10,8 @@ test('Complete checkout', async ({ page }) => {
     await page.click('.shopping_cart_link');
     await page.click('#checkout');
 
-    await page.fill('#first-name', 'Hania');
-    await page.fill('#last-name', 'Hussain');
+    await page.fill('#first-name', 'khoula');
+    await page.fill('#last-name', 'Rehman');
     await page.fill('#postal-code', '75500');
 
     await page.click('#continue');
